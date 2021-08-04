@@ -16,4 +16,4 @@ async function getPayments(userId: string): Promise<Payment[]> {
   return payments
 }
 
-export default getPayments;
+export {Payment, getPayments};
