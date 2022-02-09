@@ -8,16 +8,16 @@ class Payment {
     String description;
 }
 
-public class FetchesUserPaymentsByMonth<T> {
+public class FetchesUserPaymentsByMonth {
 
-	public static <T> FetchesUserPaymentsByMonth<T> getInstance() {
-		return new FetchesUserPaymentsByMonth<T>();
+	public static  FetchesUserPaymentsByMonth getInstance() {
+		return new FetchesUserPaymentsByMonth();
 	}
 
 	private FetchesUserPaymentsByMonth() {
 	}
 
-	public Set<T> fetch(long userId, int year, int month) {
+	public Set<Payment> fetch(long userId, int year, int month) {
 		throw new RuntimeException("Data access will be implemented by a different team later");
 	}
 
