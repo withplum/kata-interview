@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import uuid
 from kata.payments.models.payment import Payment
 
