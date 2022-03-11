@@ -22,9 +22,8 @@ If we want to execute a file of the app:
     $ docker-compose exec app python <filepath>
 
 or if we want to run the tests:
-    
-    $ docker-compose exec app pytest src/tests/test_app.py
 
+    $ docker-compose exec app pytest tests/
 
 ## Requirements
 

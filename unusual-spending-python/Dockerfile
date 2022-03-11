@@ -1,7 +1,7 @@
-FROM python:3.10
+FROM python:3.10-slim
 
-COPY requirements.txt /app/
 WORKDIR /app
+COPY requirements.txt /app/
 RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python"]
