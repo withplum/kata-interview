@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# import pytest
 
-import pytest
-from src.app import main
+from kata.app import main
+
 
 class TestMain:
 

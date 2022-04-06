@@ -1,5 +1,6 @@
 def main():
-    """ Main entry point of the app """
+    """Main entry point of the app"""
+    print("Hello")
     return "Hello"
 
 

@@ -1,9 +1,8 @@
-Unusual Spending Kata in Python
-===============================
+# Unusual Spending Kata in Python
 
 This repository is a boilerplate code for the Unusual Spending Kata in Python
 
-### Getting Started
+## Getting Started
 
 In order to use it, we must install [docker](https://docs.docker.com/engine/installation/) to run it with a container, or install a standard python development environment and run it in your local machine.
 
@@ -11,30 +10,39 @@ To run the project with docker, we can do the following:
 
 First we can build the docker image by issuing:
 
-    $ docker-compose build
+```bash
+docker-compose build
+```
 
-Then in order to start the app:
+Then, in order to start the app:
 
-    $ docker-compose up -d
+```bash
+docker-compose up -d app
+```
 
 If we want to execute a file of the app:
-    
-    $ docker-compose exec app python <filepath>
+
+```bash
+docker-compose exec app python <filepath>
+```
 
 or if we want to run the tests:
 
-    $ docker-compose exec app pytest tests/
+```bash
+docker-compose exec app pytest tests/
+```
 
 ## Requirements
 
 You work at a credit card company and as a value-add they want to start providing alerts to users when their spending in any particular category is higher than usual.
 
-* A `Payment` is a simple value object with a `price`, `description`, and `category`
-* A `Category` is an enumerable type of a collection of things like "entertainment", "restaurants", and "golf"
+* A `Payment` is a simple value object with a `price`, `description` and `category`
+* A `Category` is an enumerable type of a collection of things like "entertainment", "restaurants" and "golf"
 * For a given `userId`, fetch the payments for the current month and the previous month
 * Compare the total amount paid for each month, grouped by category; filter down to the categories for which the user spent at least 50% more this month than last month
 * Compose an e-mail message to the user that lists the categories for which spending was unusually high, with a subject like "Unusual spending of $1076 detected!" and this body:
-```
+
+```text
 Hello card user!
 
 We have detected unusually high spending on your card in these categories:
