@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/testdouble/unusual-spending-kata#readme",
   "devDependencies": {
-    "teenytest": "^1.0.0",
+    "teenytest": "^6.0.3",
     "testdouble": "^0.8.0"
   },
   "dependencies": {}
