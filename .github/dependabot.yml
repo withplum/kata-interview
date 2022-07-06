@@ -1,0 +1,74 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+- package-ecosystem: "nuget"
+  directory: "unusual-spending-c-sharp/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 5
+  reviewers:
+    - "iliasmentz"
+    - "expobrain"
+    - "dennisxtria"
+    - "abourazanis"
+
+- package-ecosystem: "gradle"
+  directory: "unusual-spending-java/"
+  schedule:
+      interval: "weekly"
+  open-pull-requests-limit: 5
+  reviewers:
+    - "iliasmentz"
+    - "expobrain"
+    - "dennisxtria"
+    - "abourazanis"
+
+- package-ecosystem: "npm"
+  directory: "unusual-spending-js/"
+  schedule:
+      interval: "weekly"
+  open-pull-requests-limit: 5
+  reviewers:
+    - "iliasmentz"
+    - "expobrain"
+    - "dennisxtria"
+    - "abourazanis"
+
+- package-ecosystem: "pip"
+  directory: "unusual-spending-python/"
+  schedule:
+      interval: "weekly"
+  open-pull-requests-limit: 5
+  insecure-external-code-execution: deny
+  reviewers:
+    - "iliasmentz"
+    - "expobrain"
+    - "dennisxtria"
+    - "abourazanis"
+
+- package-ecosystem: "bundler"
+  directory: "unusual-spending-ruby/"
+  schedule:
+      interval: "weekly"
+  open-pull-requests-limit: 5
+  insecure-external-code-execution: deny
+  reviewers:
+    - "iliasmentz"
+    - "expobrain"
+    - "dennisxtria"
+    - "abourazanis"
+
+- package-ecosystem: "npm"
+  directory: "unusual-spending-ts/"
+  schedule:
+      interval: "weekly"
+  open-pull-requests-limit: 5
+  reviewers:
+    - "iliasmentz"
+    - "expobrain"
+    - "dennisxtria"
+    - "abourazanis"
