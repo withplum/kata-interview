@@ -6,7 +6,7 @@
 version: 2
 updates:
 - package-ecosystem: "nuget"
-  directory: "/unusual-spending-c-sharp/"
+  directory: "unusual-spending-c-sharp/"
   schedule:
     interval: weekly
   open-pull-requests-limit: 5
@@ -18,7 +18,7 @@ updates:
     - "abourazanis"
 
 - package-ecosystem: "gradle"
-  directory: "/unusual-spending-java/"
+  directory: "unusual-spending-java/"
   schedule:
       interval: "weekly"
   open-pull-requests-limit: 5
@@ -30,7 +30,7 @@ updates:
     - "abourazanis"
 
 - package-ecosystem: "npm"
-  directory: "/unusual-spending-js/"
+  directory: "unusual-spending-js/"
   schedule:
       interval: "weekly"
   open-pull-requests-limit: 5
@@ -42,7 +42,7 @@ updates:
     - "abourazanis"
 
 - package-ecosystem: "pip"
-  directory: "/unusual-spending-python/"
+  directory: "unusual-spending-python/"
   schedule:
       interval: "weekly"
   open-pull-requests-limit: 5
@@ -54,7 +54,7 @@ updates:
     - "abourazanis"
 
 - package-ecosystem: "bundler"
-  directory: "/unusual-spending-ruby/"
+  directory: "unusual-spending-ruby/"
   schedule:
       interval: "weekly"
   open-pull-requests-limit: 5
@@ -66,7 +66,7 @@ updates:
     - "abourazanis"
 
 - package-ecosystem: "npm"
-  directory: "/unusual-spending-ts/"
+  directory: "unusual-spending-ts/"
   schedule:
       interval: "weekly"
   open-pull-requests-limit: 5
